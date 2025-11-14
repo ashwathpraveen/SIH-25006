@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:14.11.25
+## Reference Number:212224220012
+## Name:Ashwath p
 ## Problem Title
 SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
 ## Problem Description
@@ -41,27 +41,82 @@ Ministry of Fisheries, Animal Husbandry & Dairying
 Department of Animal Husbandry & Dairying (DoAH&D)
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+The proposed solution is a Digital Farm Management Portal designed to strengthen biosecurity practices in pig and poultry farms. The system enables farmers to digitally track farm operations, monitor animal health, regulate farm access, and detect early warning signs of diseases.
+The portal will provide modules for visitor management, feed and waste tracking, vaccination reminders, geofencing alerts, and real-time health monitoring using IoT sensors.
 
-## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+This solution directly addresses the core problem of disease outbreaks caused by poor record-keeping, unrestricted farm access, and delayed detection. By automating biosecurity protocols, the portal ensures consistent monitoring and reduces human error. Its innovation lies in integrating IoT sensors, cloud-based dashboards, and automated risk alerts into a single platform tailored for livestock farms — a feature rarely seen in traditional agricultural tools.
 
+## Technical ApproachThe portal will be built as a web-based and mobile-compatible application using:
+
+Frontend: React/Angular, HTML5, CSS3
+
+Backend: Node.js / Django
+
+Database: MySQL / Firebase
+
+IoT Integration: RFID tags, temperature/humidity sensors, ammonia/gas sensors
+
+Cloud Hosting: AWS / Azure
+Methodology
+
+Data Collection Layer
+
+Sensors collect environmental and health parameters.
+
+RFID tags track animal movement.
+
+Processing Layer
+
+Backend applies risk-scoring algorithms.
+
+Automated alerts generated for unusual activities.
+
+User Interface Layer
+
+Dashboard shows farm status, disease risks, and reports.
+
+Mobile interface enables quick updates by farmers.
+
+Prototype Flow (Summary)
+
+Sensor → Cloud → Processing → Dashboard → Alerts/Reports
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+The solution is highly feasible due to the availability of low-cost IoT sensors and cloud services. Adoption is viable because most farmers already use smartphones and are open to digital tools that reduce losses.
+
+Potential Challenges
+
+High initial setup cost for IoT devices
+
+Limited digital literacy among rural farmers
+
+Connectivity issues in remote areas
+
+Mitigation Strategies
+
+Offering a basic non-IoT version for small farms
+
+Training workshops and multilingual UI
+
+Offline-first mobile app with syncing when network becomes available
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+The portal can significantly improve biosecurity outcomes by ensuring consistent monitoring and early action.
+
+Key Benefits
+
+Social: Reduces disease spread, ensures safer meat production
+
+Economic: Minimizes livestock mortality and financial losses
+
+Environmental: Enables safer waste disposal and reduces chemical misuse
+
+Operational: Automates logs, improves traceability, supports compliance with regulatory standards
 
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+OIE (World Organisation for Animal Health) biosecurity guidelines for livestock farms
+
+FAO publications on digital agriculture and disease prevention
+
+Research papers on IoT-based livestock monitoring (IEEE, ScienceDirect)
+
+Government of India – National Livestock Mission documents
